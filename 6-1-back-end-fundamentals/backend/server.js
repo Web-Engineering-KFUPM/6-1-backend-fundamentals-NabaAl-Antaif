@@ -12,19 +12,19 @@ app.use(cors());
 
 
 // TODO 5: Create the home route "/"
-app.get('http://localhost:3000/', (req, res) => {
+app.get('/', (req, res) => {
      res.send('Hello');
    });
 
 
 // TODO 6: Create the "/about" route
-app.get('http://localhost:3000/about', (req, res) => {
+app.get('/about', (req, res) => {
      res.send('This is the about route');
    });
 
 
 // TODO 7: Create the "/student" route
-app.get('http://localhost:3000/student', (req, res) => {
+app.get('/student', (req, res) => {
      res.json({
        name: 'Aisha',
        major: 'Computer Science'
