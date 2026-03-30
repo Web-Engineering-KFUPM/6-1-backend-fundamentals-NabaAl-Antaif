@@ -24,7 +24,12 @@ app.get('http://localhost:3000/about', (req, res) => {
 
 
 // TODO 7: Create the "/student" route
-
+app.get('http://localhost:3000/student', (req, res) => {
+     res.json({
+       name: 'Aisha',
+       major: 'Computer Science'
+     });
+   });
 
 
 // TODO 4: Start the server on port 3000
