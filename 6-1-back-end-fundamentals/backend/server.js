@@ -18,7 +18,9 @@ app.get('http://localhost:3000/', (req, res) => {
 
 
 // TODO 6: Create the "/about" route
-
+app.get('http://localhost:3000/about', (req, res) => {
+     res.send('This is the about route');
+   });
 
 
 // TODO 7: Create the "/student" route
