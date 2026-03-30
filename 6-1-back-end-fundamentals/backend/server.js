@@ -7,6 +7,8 @@ const app = ______();
 
 
 // TODO 3: Allow React to access the server
+import ______ from 'cors';
+app.use(______);
 
 
 
